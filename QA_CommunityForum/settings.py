@@ -32,6 +32,9 @@ INSTALLED_APPS = [
     'admins',
     'users',
     'rest_framework',
+    'graphene_django',
+    'webpack_loader',
+    'corsheaders',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,9 +53,17 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'QA_CommunityForum.urls'
+
+GRAPHENE = {
+    'SCHEMA': 'QA_CommunityForum.schema.schema',
+}
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 TEMPLATES = [
     {

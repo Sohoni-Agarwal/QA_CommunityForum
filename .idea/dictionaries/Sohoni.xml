@@ -2,6 +2,9 @@
   <dictionary name="Sohoni">
     <words>
       <w>adminss</w>
+      <w>cors</w>
+      <w>corsheaders</w>
+      <w>graphene</w>
     </words>
   </dictionary>
 </component>
