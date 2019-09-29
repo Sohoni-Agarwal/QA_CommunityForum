@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,6 +55,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+
 ]
 
 ROOT_URLCONF = 'QA_CommunityForum.urls'
@@ -61,6 +64,8 @@ ROOT_URLCONF = 'QA_CommunityForum.urls'
 GRAPHENE = {
     'SCHEMA': 'QA_CommunityForum.schema.schema',
 }
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 TEMPLATES = [
     {
@@ -132,11 +137,15 @@ STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",
     # "django.contrib.staticfiles.finders.AppDirectoriesFinder"
 )
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/'),
-)
-#STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
+#STATICFILES_DIRS = (
+ #   os.path.join(BASE_DIR, 'static'),
+#)
+
+
+STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/images/')
 MEDIA_URL = '/images/'
+
+django_heroku.settings(locals())

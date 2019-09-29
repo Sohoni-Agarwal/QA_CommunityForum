@@ -1,29 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { BrowseRouter as Router, Link, Switch, Route } from 'react-router-dom';
+[...]
+import {
+  ApolloProvider,
+  ApolloClient,
+  createBatchingNetworkInterface,
+} from 'react-apollo'
+[...]
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const networkInterface = createBatchingNetworkInterface({
+  uri: 'http://localhost:8000/gql',
+  batchInterval: 10,
+  opts: {
+    credentials: 'same-origin',
+  },
+})
+
+const client = new ApolloClient({
+  networkInterface: networkInterface,
+})
+
+class App extends Component {
+  render() {
+    return (
+      <ApolloProvider client={client}>
+        [...]
+      </ApolloProvider>
+    )
+  }
 }
 
-export default App;
-
+export default App
 
