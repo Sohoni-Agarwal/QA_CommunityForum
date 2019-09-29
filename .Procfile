@@ -1,1 +1,3 @@
 web: gunicorn QA_CommunityForum.wsgi
+
+web: python website/manage.py runserver 127.0.0.1:8000

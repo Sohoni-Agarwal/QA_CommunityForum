@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/.Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_homepage/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_homepage/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_homepage/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_homepage/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="QA_CommunityForum" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">

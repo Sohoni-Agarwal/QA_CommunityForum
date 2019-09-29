@@ -6,6 +6,7 @@
       <w>corsheaders</w>
       <w>endblock</w>
       <w>graphene</w>
+      <w>gunicorn</w>
       <w>vide</w>
       <w>virtualdir</w>
       <w>whitenoise</w>
