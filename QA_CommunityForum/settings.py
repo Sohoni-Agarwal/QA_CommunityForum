@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'graphene_django',
     'webpack_loader',
-    'corsheaders',
+    'graph_auth',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -53,8 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
+
 ]
 
 ROOT_URLCONF = 'QA_CommunityForum.urls'
@@ -62,8 +61,6 @@ ROOT_URLCONF = 'QA_CommunityForum.urls'
 GRAPHENE = {
     'SCHEMA': 'QA_CommunityForum.schema.schema',
 }
-
-CORS_ORIGIN_ALLOW_ALL = True
 
 TEMPLATES = [
     {
@@ -131,5 +128,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
+STATICFILES_FINDERS = (
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    # "django.contrib.staticfiles.finders.AppDirectoriesFinder"
+)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/'),
+)
+#STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/images/')
+MEDIA_URL = '/images/'

@@ -4,7 +4,10 @@
       <w>adminss</w>
       <w>cors</w>
       <w>corsheaders</w>
+      <w>endblock</w>
       <w>graphene</w>
+      <w>vide</w>
+      <w>virtualdir</w>
     </words>
   </dictionary>
 </component>
