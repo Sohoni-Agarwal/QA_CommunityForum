@@ -1,3 +1,4 @@
-web: gunicorn QA_CommunityForum.wsgi
+web: gunicorn QA_CommunityForum.wsgi --log-file -
+web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
 
-web: python website/manage.py runserver 127.0.0.1:8000
+worker: bundle exec rake jobs:work

@@ -2,9 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/loose-envify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/profiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/test-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-native-dependencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/tracing-profiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/tracing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/unstable_mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/.Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +147,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django\virtualdir\QA_CommunityForum" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\static" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\static\css" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src\js components" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src\styles" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\public" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\static\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\static" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\static\css" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage" />
     </key>
   </component>
   <component name="RunDashboard">
