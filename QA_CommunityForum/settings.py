@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'graphene_django',
     'webpack_loader',
     'graph_auth',
+    'social_django',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -64,6 +65,15 @@ ROOT_URLCONF = 'QA_CommunityForum.urls'
 GRAPHENE = {
     'SCHEMA': 'QA_CommunityForum.schema.schema',
 }
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.google.GoogleOAuth2',
+    'social_core.backends.twitter.TwitterOAuth2',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'django.contrib.auth.backends.ModelBackend'
+)
+
+django_heroku.settings(locals())
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -135,17 +145,22 @@ USE_TZ = True
 
 STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",
-    # "django.contrib.staticfiles.finders.AppDirectoriesFinder"
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder"
 )
-# STATICFILES_DIRS = (
-#   os.path.join(BASE_DIR, 'static'),
-# )
 
+# Needed while running website
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
-STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
+# Needed while collecting static
+# STATIC_ROOT = '/Django/virtualdir/QA_CommunityForum/static/'
+
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/images/')
 MEDIA_URL = '/images/'
 
-django_heroku.settings(locals())
+LOGIN_REDIRECT_URL = ''
+
+LOGOUT_REDIRECT_URL = ''

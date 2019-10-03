@@ -11,6 +11,9 @@
 			</div>
 			<div class="header-left-bottom">
 				<form action="#" method="post">
+					{% csrf_token %}
+    				{{ form.as_p }}
+
 					<div class="icon1">
 						<span class="fa fa-user"></span>
 						<input type="email" placeholder="Email Address" required=""/>
