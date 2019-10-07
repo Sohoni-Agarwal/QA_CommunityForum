@@ -4,7 +4,7 @@ import { createStore } from 'redux';
 import {Provider} from 'react-redux';
 import {BrowserRouter} from 'react-router-dom';
 
-import { ApolloClient, InMemoryCache } from 'apollo-client-preset';
+import { ApolloClient, InMemoryCache } from 'apollo-boost';
 import { setContext } from 'apollo-link-context';
 import { createHttpLink } from 'apollo-link-http';
 import { ApolloProvider } from 'react-apollo';

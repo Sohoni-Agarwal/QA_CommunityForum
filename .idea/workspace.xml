@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/ast/webassemblyjs-ast-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/helper-code-frame/webassemblyjs-helper-code-frame-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/helper-wasm-bytecode/webassemblyjs-helper-wasm-bytecode-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/helper-wasm-section/webassemblyjs-helper-wasm-section-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wasm-edit/webassemblyjs-wasm-edit-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wasm-gen/webassemblyjs-wasm-gen-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wasm-opt/webassemblyjs-wasm-opt-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wasm-parser/webassemblyjs-wasm-parser-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wast-parser/webassemblyjs-wast-parser-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@webassemblyjs/wast-printer/webassemblyjs-wast-printer-1.7.10.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/@xtuc/ieee754/dist/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/send/node_modules/mime/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/node_modules/webpack-dev-server/ssl/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Navigation/NavLogo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Navigation/NavLogo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/assets/scss/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/assets/scss/partials/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,21 +52,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/admins/frontend/admin_dir" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_dir" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\users" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src\js components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_dir" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\QA_CommunityForum" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\static" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\static\css" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Django\virtualdir\QA_CommunityForum" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_dir" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src\js components" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src\styles" />
     </key>
   </component>
   <component name="RunDashboard">

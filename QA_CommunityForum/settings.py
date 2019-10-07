@@ -36,7 +36,12 @@ INSTALLED_APPS = [
     'graphene_django',
     'webpack_loader',
     'graph_auth',
-    'social_django',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.linkedin',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -66,11 +71,11 @@ GRAPHENE = {
     'SCHEMA': 'QA_CommunityForum.schema.schema',
 }
 
+SITE_ID=1
+
 AUTHENTICATION_BACKENDS = (
-    'social_core.backends.google.GoogleOAuth2',
-    'social_core.backends.twitter.TwitterOAuth2',
-    'social_core.backends.facebook.FacebookOAuth2',
-    'django.contrib.auth.backends.ModelBackend'
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
 )
 
 django_heroku.settings(locals())
@@ -88,6 +93,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'allauth.account.context_processors.account',
+                'allauth.socialaccount.context_processors.socialaccount'
             ],
         },
     },
@@ -161,6 +168,6 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/images/')
 MEDIA_URL = '/images/'
 
-LOGIN_REDIRECT_URL = ''
+LOGIN_REDIRECT_URL = 'login'
 
-LOGOUT_REDIRECT_URL = ''
+LOGOUT_REDIRECT_URL = 'login'

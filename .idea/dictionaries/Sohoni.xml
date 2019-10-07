@@ -2,11 +2,13 @@
   <dictionary name="Sohoni">
     <words>
       <w>adminss</w>
+      <w>allauth</w>
       <w>cors</w>
       <w>corsheaders</w>
       <w>endblock</w>
       <w>graphene</w>
       <w>gunicorn</w>
+      <w>socialaccount</w>
       <w>vide</w>
       <w>virtualdir</w>
       <w>whitenoise</w>
