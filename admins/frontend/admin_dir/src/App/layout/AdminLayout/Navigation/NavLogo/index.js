@@ -3,10 +3,10 @@ import DEMO  from './../../../../../store/constant';
 import Aux from "../../../../../hoc/_Aux";
 
 const navLogo = (props) => {
-    let toggleClass = ['mobile-menu'];
-    if (props.collapseMenu) {
+ /*    let toggleClass = ['mobile-menu'];
+   if (props.collapseMenu) {
         toggleClass = [...toggleClass, 'on'];
-    }
+    }  */
 
     return (
         <Aux>
@@ -17,6 +17,7 @@ const navLogo = (props) => {
                     </div>
                     <span className="b-title">QA_CommunityForum</span>
                  </a>
+
             </div>
         </Aux>
     );
