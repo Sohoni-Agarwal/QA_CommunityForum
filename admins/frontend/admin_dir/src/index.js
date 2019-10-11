@@ -9,7 +9,8 @@ import { setContext } from 'apollo-link-context';
 import { createHttpLink } from 'apollo-link-http';
 import { ApolloProvider } from 'react-apollo';
 
-import App from './App/index';
+//import App from './App/index';
+import App from './Demo/Authentication/SignIn/SignIn1';
 import * as serviceWorker from './serviceWorker';
 import reducer from './store/reducer';
 import config from './config';

@@ -1,0 +1,333 @@
+<XMLDiagram>
+  <TDBADiagramController Locked="0">
+    <Elements>
+      <TDBADiagramObject id="1" propertiesclass="TDiagramMetaTableProperties" objectname="public.ADMIN_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1200" top="50" width="200" height="97"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="2" propertiesclass="TDiagramMetaTableProperties" objectname="public.IDENTITY_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1700" top="40" width="200" height="69"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="3" propertiesclass="TDiagramMetaTableProperties" objectname="public.NOTIFICATIONS_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="230" top="40" width="242" height="75"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="4" propertiesclass="TDiagramMetaTableProperties" objectname="public.POSTS_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1430" top="50" width="200" height="69"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="5" propertiesclass="TDiagramMetaTableProperties" objectname="public.TOPICS_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="520" top="40" width="200" height="111"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="6" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_ANSWER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="40" top="810" width="216" height="131"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="7" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="900" top="40" width="200" height="139"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="8" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_NOTIFICATION TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="170" top="500" width="200" height="49"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="9" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_POSTS_IDENTITY TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1750" top="440" width="200" height="63"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="10" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_PROFILE TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1510" top="500" width="200" height="251"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="11" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_QUESTIONS TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="550" top="730" width="201" height="85"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="12" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_SESSION TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="870" top="840" width="200" height="80"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="13" propertiesclass="TDiagramMetaTableProperties" objectname="public.USER_TOPIC TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1130" top="770" width="200" height="49"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="14" propertiesclass="TDiagramMetaTableProperties" objectname="public.VOTE_MASTER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="10" top="30" width="200" height="69"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="94" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_ANSWER TABLE.USER_ANSWER TABLE_Answer's_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1504" top="1504" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="144" y="874"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="95" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_ANSWER TABLE.USER_ANSWER TABLE_Vote_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1520" top="1520" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="144" y="874"/>
+                <Point x="106" y="65"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="96" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_NOTIFICATION TABLE.USER_NOTIFICATION TABLE_Notification_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1536" top="1536" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="272" y="523"/>
+                <Point x="353" y="78"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="97" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_NOTIFICATION TABLE.USER_NOTIFICATION TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1552" top="1552" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="272" y="523"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="98" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_POSTS_IDENTITY TABLE.USER_POSTS_IDENTITY TABLE_Identity_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1568" top="1568" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1855" y="470"/>
+                <Point x="1796" y="75"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="99" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_POSTS_IDENTITY TABLE.USER_POSTS_IDENTITY TABLE_Post_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1584" top="1584" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1855" y="470"/>
+                <Point x="1530" y="85"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="100" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_POSTS_IDENTITY TABLE.USER_POSTS_IDENTITY TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1600" top="1600" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1855" y="470"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="101" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_PROFILE TABLE.USER_PROFILE TABLE_Topic_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1616" top="1616" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1609" y="623"/>
+                <Point x="619" y="97"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="102" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_PROFILE TABLE.USER_PROFILE TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1632" top="1632" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1609" y="623"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="103" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_QUESTIONS TABLE.USER_QUESTIONS TABLE_Answer_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1648" top="1648" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="651" y="777"/>
+                <Point x="144" y="874"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="104" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_QUESTIONS TABLE.USER_QUESTIONS TABLE_Topic_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1664" top="1664" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="651" y="777"/>
+                <Point x="619" y="97"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="105" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_QUESTIONS TABLE.USER_QUESTIONS TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1680" top="1680" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="651" y="777"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="106" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_SESSION TABLE.USER_SESSION TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1696" top="1696" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="968" y="878"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="107" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_TOPIC TABLE.USER_TOPIC TABLE_Topic_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1712" top="1712" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1233" y="793"/>
+                <Point x="619" y="97"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="108" propertiesclass="TDiagramForeignKeyProperties" objectname="public.USER_TOPIC TABLE.USER_TOPIC TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="1728" top="1728" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1233" y="793"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="15" propertiesclass="TDiagramMetaTableProperties" objectname="public.ADMIN_USER TABLE">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1390" top="880" width="200" height="53"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="16" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ADMIN_USER TABLE.ADMIN_USER TABLE_Admin_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="496" top="496" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1490" y="905"/>
+                <Point x="1300" y="100"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="17" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ADMIN_USER TABLE.ADMIN_USER TABLE_User_ID_fkey">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="512" top="512" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1490" y="905"/>
+                <Point x="999" y="110"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+    </Elements>
+    <Surface zoom="131.900826446281" scrollx="0" scrolly="0"/>
+  </TDBADiagramController>
+</XMLDiagram>
