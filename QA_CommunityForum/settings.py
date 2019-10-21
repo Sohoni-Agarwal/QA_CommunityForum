@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.facebook',
-    'allauth.socialaccount.providers.linkedin',
+    'allauth.socialaccount.providers.linkedin_oauth2',
+
 
     'django.contrib.sites',
     'django.contrib.admin',
@@ -67,10 +68,18 @@ MIDDLEWARE = [
 
 ]
 
-AUTH_USER_MODEL = [
-    'users.User',
-    'admins.User'
-]
+#AUTH_USER_MODEL = 'admins.User',
+#AUTH_USER_MODEL = 'users.User'
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+#EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'username@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'QA_CommunityForum Team <noreply@example.com>'
 
 ROOT_URLCONF = 'QA_CommunityForum.urls'
 

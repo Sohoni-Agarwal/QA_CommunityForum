@@ -5,9 +5,13 @@
       <w>allauth</w>
       <w>cors</w>
       <w>corsheaders</w>
+      <w>endautoescape</w>
       <w>endblock</w>
+      <w>gmail</w>
       <w>graphene</w>
       <w>gunicorn</w>
+      <w>linkedin</w>
+      <w>smtp</w>
       <w>socialaccount</w>
       <w>vide</w>
       <w>virtualdir</w>

@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+<!--{% load socialaccount %}-->
 {% block content %}
 <!-- main -->
 <div class="w3layouts-main">
@@ -29,7 +30,7 @@
 						<button class="btn">Log In</button>
 					</div>
 					<div class="links">
-						<p><a href="{% static '#' %}">Forgot Password?</a></p>
+						<p><a href="{% url 'password_reset1' %}">Forgot Password?</a></p>
 						<p class="right"><a href="{% url 'register' %}">New User? Register</a></p>
 						<div class="clear"></div>
 					</div>

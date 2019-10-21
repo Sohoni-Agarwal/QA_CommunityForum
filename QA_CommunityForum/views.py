@@ -1,9 +1,8 @@
-from django.shortcuts import render
 from django.views.generic import TemplateView
 
 
 # def index(request):
-#  return render(request, 'frontend/templates/index.html')
+#  return render(request, 'frontend/templates/home.html')
 
 
 class HomePageView(TemplateView):

@@ -13,17 +13,21 @@ class AdminMasterTable(models.Model):
     name = models.CharField(db_column='Name', max_length=-1, blank=True, null=True)  # Field name made lowercase.
     e_mail = models.TextField(db_column='E-mail', blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
     password = models.TextField(db_column='Password', blank=True, null=True)  # Field name made lowercase.
+    is_super_admin = models.BooleanField(db_column='Is_Super Admin')  # Field name made lowercase. Field renamed to remove unsuitable characters.
 
     class Meta:
         managed = False
         db_table = 'ADMIN_MASTER TABLE'
 
 
-class AdminPermissionTable(models.Model):
+class AdminUserTable(models.Model):
+    admin = models.ForeignKey(AdminMasterTable, models.DO_NOTHING, db_column='Admin_ID', blank=True, null=True)  # Field name made lowercase.
+    user = models.ForeignKey('UserMasterTable', models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    sau = models.ForeignKey('SuperAdminAdminUserTable', models.DO_NOTHING, db_column='SAU_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
-        db_table = 'ADMIN_PERMISSION TABLE'
+        db_table = 'ADMIN_USER TABLE'
 
 
 class IdentityMasterTable(models.Model):
@@ -53,9 +57,24 @@ class PostsMasterTable(models.Model):
         db_table = 'POSTS_MASTER TABLE'
 
 
+class SuperAdminAdminUserTable(models.Model):
+    super_admin_id = models.IntegerField(db_column='Super Admin_ID')  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    admin = models.ForeignKey(AdminMasterTable, models.DO_NOTHING, db_column='Admin_ID')  # Field name made lowercase.
+    user_id_from = models.ForeignKey('UserMasterTable', models.DO_NOTHING, db_column='User_ID From')  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    user_id_to = models.ForeignKey('UserMasterTable', models.DO_NOTHING, db_column='User_ID To', blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    sau_id = models.IntegerField(db_column='SAU_ID', primary_key=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'SUPER ADMIN_ADMIN_USER TABLE'
+
+
 class TopicsMasterTable(models.Model):
     topic_id = models.IntegerField(db_column='Topic_ID', primary_key=True)  # Field name made lowercase.
     topic_type = models.CharField(db_column='Topic_Type', max_length=-1, blank=True, null=True)  # Field name made lowercase.
+    topic_name = models.CharField(db_column='Topic_Name', max_length=-1, blank=True, null=True)  # Field name made lowercase.
+    topic_created_on = models.DateTimeField(db_column='Topic_Created_On', blank=True, null=True)  # Field name made lowercase.
+    topic_description = models.TextField(db_column='Topic_Description', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -63,9 +82,11 @@ class TopicsMasterTable(models.Model):
 
 
 class UserAnswerTable(models.Model):
-    answer_s_user_id = models.IntegerField(db_column="Answer's_User_ID", blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    answer_s_user = models.ForeignKey('UserMasterTable', models.DO_NOTHING, db_column="Answer's_User_ID", blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
     answer_id = models.IntegerField(db_column='Answer_ID', primary_key=True)  # Field name made lowercase.
     answer = models.CharField(db_column='Answer', max_length=-1, blank=True, null=True)  # Field name made lowercase.
+    question_id = models.IntegerField(db_column='Question_ID')  # Field name made lowercase.
+    vote = models.ForeignKey('VoteMasterTable', models.DO_NOTHING, db_column='Vote_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -86,20 +107,18 @@ class UserMasterTable(models.Model):
 
 
 class UserNotificationTable(models.Model):
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    notification = models.ForeignKey(NotificationsMasterTable, models.DO_NOTHING, db_column='Notification_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
         db_table = 'USER_NOTIFICATION TABLE'
 
 
-class UserPostsTable(models.Model):
-
-    class Meta:
-        managed = False
-        db_table = 'USER_POSTS TABLE'
-
-
 class UserPostsIdentityTable(models.Model):
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    post = models.ForeignKey(PostsMasterTable, models.DO_NOTHING, db_column='Post_ID', blank=True, null=True)  # Field name made lowercase.
+    identity = models.ForeignKey(IdentityMasterTable, models.DO_NOTHING, db_column='Identity_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -108,7 +127,7 @@ class UserPostsIdentityTable(models.Model):
 
 class UserProfileTable(models.Model):
     user_profile_id = models.IntegerField(db_column='User_Profile_ID', primary_key=True)  # Field name made lowercase.
-    user_id = models.IntegerField(db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
     profile_last_updated = models.DateTimeField(db_column='Profile_Last_Updated', blank=True, null=True)  # Field name made lowercase.
     employment_position = models.TextField(db_column='Employment_Position', blank=True, null=True)  # Field name made lowercase.
     company = models.TextField(db_column='Company', blank=True, null=True)  # Field name made lowercase.
@@ -120,9 +139,7 @@ class UserProfileTable(models.Model):
     graduation_year = models.TextField(db_column='Graduation_Year', blank=True, null=True)  # Field name made lowercase.
     location = models.TextField(db_column='Location', blank=True, null=True)  # Field name made lowercase.
     is_currently_living = models.BooleanField(db_column='Is_Currently_Living', blank=True, null=True)  # Field name made lowercase.
-    topic_created = models.TextField(db_column='Topic_Created', blank=True, null=True)  # Field name made lowercase.
-    topic_created_on = models.DateTimeField(db_column='Topic_Created_On', blank=True, null=True)  # Field name made lowercase.
-    topic_description = models.TextField(db_column='Topic_Description', blank=True, null=True)  # Field name made lowercase.
+    topic = models.ForeignKey(TopicsMasterTable, models.DO_NOTHING, db_column='Topic_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -130,45 +147,39 @@ class UserProfileTable(models.Model):
 
 
 class UserQuestionsTable(models.Model):
-    user_id = models.IntegerField(db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
     question_id = models.IntegerField(db_column='Question_ID', blank=True, null=True)  # Field name made lowercase.
-    topic_id = models.IntegerField(db_column='Topic_ID', blank=True, null=True)  # Field name made lowercase.
-    answer_id = models.IntegerField(db_column='Answer_ID', blank=True, null=True)  # Field name made lowercase.
+    topic = models.ForeignKey(TopicsMasterTable, models.DO_NOTHING, db_column='Topic_ID', blank=True, null=True)  # Field name made lowercase.
+    answer = models.ForeignKey(UserAnswerTable, models.DO_NOTHING, db_column='Answer_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
         db_table = 'USER_QUESTIONS TABLE'
 
 
-class UserSearchTopicTable(models.Model):
+class UserSessionTable(models.Model):
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    session_id = models.IntegerField(db_column='Session_ID')  # Field name made lowercase.
+    session_start = models.DateTimeField(db_column='Session_Start', blank=True, null=True)  # Field name made lowercase.
+    session_end = models.DateTimeField(db_column='Session_End', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
-        db_table = 'USER_SEARCH_TOPIC TABLE'
-
-
-class UserSharelinkTable(models.Model):
-
-    class Meta:
-        managed = False
-        db_table = 'USER_SHARELINK TABLE'
+        db_table = 'USER_SESSION TABLE'
 
 
 class UserTopicTable(models.Model):
+    user = models.ForeignKey(UserMasterTable, models.DO_NOTHING, db_column='User_ID', blank=True, null=True)  # Field name made lowercase.
+    topic = models.ForeignKey(TopicsMasterTable, models.DO_NOTHING, db_column='Topic_ID', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
         db_table = 'USER_TOPIC TABLE'
 
 
-class UserVoteAnswerTable(models.Model):
-
-    class Meta:
-        managed = False
-        db_table = 'USER_VOTE_ANSWER TABLE'
-
-
 class VoteMasterTable(models.Model):
+    vote_id = models.IntegerField(db_column='Vote_ID', primary_key=True)  # Field name made lowercase.
+    vote_type = models.TextField(db_column='Vote_Type', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
 
     class Meta:
         managed = False

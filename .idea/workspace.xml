@@ -2,8 +2,500 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Database_ERDiag.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Database_ERDiag.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database_ERDiag.qbd" beforeDir="false" afterPath="$PROJECT_DIR$/Database_ERDiag.qbd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-ans_frontend-27-37f34ae566d5b143.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-ans_frontend-common-27-357506bd07c42052.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-ans_frontend-vendor-27-60a6a78c2b8a8d73.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-chunk.web.main.js.out-34-1bcc4f384bb13dc0.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-chunk.web.qtext2.js.out-34-6730a23088600b8b.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-main.css-27-fc965f48bf7d0b90.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/-3-web.entry.js.out-34-c4022133f3573cd8.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/main-thumb-57529539-50-lqyqxpfxcqaxuidxaltfkrubnstwrcre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/sdk.js(1).download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/sdk.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Account Settings - Quora_files/xd_arbiter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Forgot Password.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-ans_frontend-27-909bdd8fdcf086e4.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-ans_frontend-common-27-837b2bc120585eb8.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-ans_frontend-vendor-27-4fabd5b2986aa0f9.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-chunk.web.main.js.out-34-01b1ef1c90802031.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-chunk.web.qtext2.js.out-34-9ebb109f5c1249ab.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-main.css-27-313d915f99ed600f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/-3-web.entry.js.out-34-c4022133f3573cd8.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/dormant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/main-thumb-57529539-50-lqyqxpfxcqaxuidxaltfkrubnstwrcre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/sdk.js(1).download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/sdk.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Write Answers - Quora_files/xd_arbiter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-ans_frontend-27-37f34ae566d5b143.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-ans_frontend-common-27-357506bd07c42052.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-ans_frontend-vendor-27-60a6a78c2b8a8d73.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-chunk.web.main.js.out-34-1bcc4f384bb13dc0.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-chunk.web.qtext2.js.out-34-6730a23088600b8b.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-main.css-27-fc965f48bf7d0b90.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/-3-web.entry.js.out-34-c4022133f3573cd8.webpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/main-thumb-57529539-200-lqyqxpfxcqaxuidxaltfkrubnstwrcre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile_files/main-thumb-57529539-50-lqyqxpfxcqaxuidxaltfkrubnstwrcre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account_settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/answers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/Password Reset Email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_subject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database_ERDiag.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database_ERDiag.qbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_CommunityForum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/core/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/core/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-dynamic-import/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-dynamic-import/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-destructuring/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-destructuring/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-react-display-name/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-react-display-name/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/color-convert/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/color-convert/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/env-ci/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/env-ci/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/fs-extra/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/fs-extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@boost/core/node_modules/fs-extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/CODEOWNERS" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/CODEOWNERS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@endemolshinegroup/cosmiconfig-typescript-loader/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@mrmlnc/readdir-enhanced/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@mrmlnc/readdir-enhanced/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@oclif/plugin-autocomplete/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@oclif/plugin-autocomplete/node_modules/fs-extra/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@oclif/plugin-autocomplete/node_modules/fs-extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@oclif/plugin-autocomplete/node_modules/fs-extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@oclif/plugin-not-found/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@oclif/plugin-not-found/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@restart/hooks/cjs/useAnimationFrame.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@restart/hooks/cjs/useAnimationFrame.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@restart/hooks/esm/useAnimationFrame.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@restart/hooks/esm/useAnimationFrame.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/babel__core/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/babel__core/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/http2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/https.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/https.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/tls.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/tls.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/accepts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-boost/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-boost/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-boost/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-boost/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-boost/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-cache-inmemory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-cache-inmemory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-client/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-client/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-client/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-client/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-client/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-client/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-codegen-core/src/__tests__/__snapshots__/jsonOutput.ts.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-codegen-core/src/__tests__/__snapshots__/jsonOutput.ts.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-codegen-flow/src/__tests__/__snapshots__/codeGeneration.ts.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-codegen-flow/src/__tests__/__snapshots__/codeGeneration.ts.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-codegen-typescript/src/__tests__/__snapshots__/codeGeneration.ts.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-codegen-typescript/src/__tests__/__snapshots__/codeGeneration.ts.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/lib/engine/GraphQLDataSource.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/lib/engine/GraphQLDataSource.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/lib/engine/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/lib/engine/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/src/engine/GraphQLDataSource.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/src/engine/GraphQLDataSource.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/src/engine/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/src/engine/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/src/graphqlTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/src/graphqlTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-language-server/src/languageProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-language-server/src/languageProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-context/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-context/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-context/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-error/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link-http/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/bundle.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/link.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/link.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/test-utils/mockLink.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/test-utils/mockLink.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-link/lib/test-utils/setContext.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-link/lib/test-utils/setContext.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo-server-env/src/utils/runtimeSupportsPromisify.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo-server-env/src/utils/runtimeSupportsPromisify.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/apollo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/apollo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ast-types/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ast-types/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/atob/LICENSE.DOCS" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/atob/LICENSE.DOCS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/globals.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/globals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/modules/_await_to_js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/await-to-js/dist/docs/modules/_await_to_js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws-sign2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws-sign2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-jest/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-jest/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-react-app/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-react-app/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babylon/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/base62/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/base62/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/booster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/booster/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/booster/responses.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/booster/responses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserify-zlib/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserify-zlib/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.es.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.es.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cardinal/themes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cardinal/themes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-deep/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clone-deep/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/coa/node_modules/q/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/coa/node_modules/q/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-convert/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/compression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/compression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/compression/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/compression/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect-history-api-fallback/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/connect-history-api-fallback/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect-history-api-fallback/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/connect-history-api-fallback/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/convert-source-map/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/convert-source-map/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-spawn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/json5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/node_modules/json5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/loader-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/node_modules/loader-utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-tree/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssstyle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cssstyle/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/d3/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/del/node_modules/globby/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/del/node_modules/globby/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/del/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/del/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/delegates/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/delegates/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/detect-port-alt/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/detect-port-alt/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/diff/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/diff/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/diff/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/diff/release-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/diff/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/diff/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexify/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/duplexify/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/env-ci/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/env-ci/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-loader/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-loader/node_modules/fs-extra/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-loader/node_modules/fs-extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-loader/node_modules/fs-extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-import/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventsource/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eventsource/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventsource/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eventsource/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fast-glob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fast-glob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fast-glob/node_modules/braces/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fast-glob/node_modules/braces/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fast-levenshtein/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fast-levenshtein/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/faye-websocket/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/faye-websocket/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/faye-websocket/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/faye-websocket/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-entry-cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-entry-cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/font-awesome/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/font-awesome/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/forever-agent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/forever-agent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/README.md.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/forwarded/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/forwarded/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fresh/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fs-extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/global-prefix/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/global-prefix/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/globby/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/globby/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/google-maps-react/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/google-maps-react/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql-tag/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql-tag/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/execute.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/execute.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/execute.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/execute.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/source.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/source.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/source.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/source.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hex-color-regex/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hex-color-regex/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hex-color-regex/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hex-color-regex/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/htmlparser2/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-browserify/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-browserify/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-call/lib/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-call/lib/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-parser-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-parser-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/http_signing.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/http_signing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/https-browserify/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/https-browserify/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/i18next/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/i18next/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflected/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inflected/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inflight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-accessor-descriptor/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-accessor-descriptor/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-arrayish/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-arrayish/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-data-descriptor/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-data-descriptor/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-descriptor/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-descriptor/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/old-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/old-api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/ws/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-environment-jsdom/node_modules/ws/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-pnp-resolver/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-pnp-resolver/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/WorkerPool.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/WorkerPool.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/workers/ChildProcessWorker.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/workers/ChildProcessWorker.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/workers/NodeThreadsWorker.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/workers/NodeThreadsWorker.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsdom/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsdom/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsdom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsdom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/json5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less-loader/node_modules/json5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less-loader/node_modules/json5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less-loader/node_modules/loader-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less-loader/node_modules/loader-utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/node_modules/json5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/node_modules/json5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loglevel/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/make-error/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-error/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mdn-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mdn-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/micromatch/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mississippi/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mississippi/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nanomatch/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nanomatch/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-forge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-forge/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nvd3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nvd3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/oauth-sign/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-finished/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-headers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-headers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/portfinder/node_modules/async/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/portfinder/node_modules/async/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/progress/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/progress/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/progress/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/progress/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-inflight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/promise-inflight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promised-io/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/promised-io/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/q/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/q/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/range-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/range-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-loadable/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-loadable/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-scripts/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-scripts/node_modules/style-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/node_modules/style-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/cjs/animationFrame.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/cjs/animationFrame.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/esm/animationFrame.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-transition-group/node_modules/dom-helpers/esm/animationFrame.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-webpack/node_modules/node-libs-browser/lib/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-webpack/node_modules/node-libs-browser/lib/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-webpack/node_modules/uglify-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-webpack/node_modules/uglify-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rechoir/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rechoir/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request-promise-core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request-promise-core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request-promise-native/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request-promise-native/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/tough-cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/tough-cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/reusify/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/reusify/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rsvp/dist/es6/rsvp.es.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rsvp/dist/es6/rsvp.es.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rsvp/dist/rsvp.es.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rsvp/dist/rsvp.es.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rsvp/dist/rsvp.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rsvp/dist/rsvp.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/AjaxObservable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/AjaxObservable.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/ajax.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/ajax.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/fetch.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/internal/observable/dom/fetch.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/bindCallback.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/bindCallback.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/AjaxObservable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/AjaxObservable.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/ajax.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/ajax.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/fetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/dom/fetch.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AnimationFrameAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AnimationFrameAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AsapAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AsapAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AsyncAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/internal/scheduler/AsyncAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safer-buffer/Porting-Buffer.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safer-buffer/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-graph/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-graph/node_modules/yargs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-graph/node_modules/yargs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-graph/node_modules/yargs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/send/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/send/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/mime/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shelljs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shelljs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/simple-swizzle/node_modules/is-arrayish/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/simple-swizzle/node_modules/is-arrayish/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/snapdragon/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/snapdragon/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/Changelog" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs/Changelog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/faye-websocket/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs/node_modules/faye-websocket/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/faye-websocket/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs/node_modules/faye-websocket/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdy-transport/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdy-transport/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/stealthy-require/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/stealthy-require/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/stream-http/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/stream-http/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/mdn-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/svgo/node_modules/mdn-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/source-map/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/svgo/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/test-exclude/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/test-exclude/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ts-node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ts-node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tunnel-agent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tunnel-agent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type-is/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uri-js/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uri-js/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/verror/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-jsonrpc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-jsonrpc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-jsonrpc/lib/messages.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-jsonrpc/lib/messages.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.colorProvider.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.colorProvider.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.foldingRange.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.foldingRange.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.typeDefinition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.typeDefinition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.workspaceFolders.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-protocol/lib/protocol.workspaceFolders.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-types/lib/esm/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-types/lib/esm/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver-types/lib/umd/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver-types/lib/umd/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver/lib/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver/lib/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-languageserver/node_modules/vscode-uri/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-languageserver/node_modules/vscode-uri/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vscode-uri/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vscode-uri/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/warning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/warning/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/yargs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/declarations/WebpackOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/declarations/WebpackOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/declarations/plugins/DllReferencePlugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/declarations/plugins/DllReferencePlugin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/declarations/plugins/IgnorePlugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/declarations/plugins/IgnorePlugin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket-driver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/websocket-driver/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket-driver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/websocket-driver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket-extensions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/websocket-extensions/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket-extensions/lib/pipeline/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/websocket-extensions/lib/pipeline/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/winston/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/winston/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/winston/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/winston/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/winston/node_modules/async/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/async/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/winston/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/winston/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-background-sync/Plugin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-background-sync/Plugin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-background-sync/Queue.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-background-sync/Queue.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-background-sync/build/workbox-background-sync.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-background-sync/build/workbox-background-sync.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-background-sync/build/workbox-background-sync.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-background-sync/build/workbox-background-sync.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-background-sync/lib/StorableRequest.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-background-sync/lib/StorableRequest.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/BroadcastCacheUpdate.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/BroadcastCacheUpdate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/Plugin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/Plugin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/build/workbox-broadcast-update.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/build/workbox-broadcast-update.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/build/workbox-broadcast-update.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-broadcast-update/build/workbox-broadcast-update.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-build/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-build/node_modules/fs-extra/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-build/node_modules/fs-extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-build/node_modules/fs-extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/CacheableResponse.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/CacheableResponse.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/build/workbox-cacheable-response.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/build/workbox-cacheable-response.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/build/workbox-cacheable-response.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-cacheable-response/build/workbox-cacheable-response.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/_private/DBWrapper.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/_private/DBWrapper.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/_private/cacheWrapper.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/_private/cacheWrapper.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/_private/deleteDatabase.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/_private/deleteDatabase.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/_private/fetchWrapper.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/_private/fetchWrapper.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/build/workbox-core.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/build/workbox-core.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/build/workbox-core.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/build/workbox-core.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-core/models/messages/messages.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-core/models/messages/messages.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-expiration/Plugin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-expiration/Plugin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-expiration/build/workbox-expiration.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-expiration/build/workbox-expiration.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-expiration/build/workbox-expiration.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-expiration/build/workbox-expiration.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-google-analytics/build/workbox-offline-ga.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-google-analytics/build/workbox-offline-ga.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-google-analytics/build/workbox-offline-ga.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-google-analytics/build/workbox-offline-ga.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-google-analytics/initialize.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-google-analytics/initialize.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/build/workbox-navigation-preload.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/build/workbox-navigation-preload.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/build/workbox-navigation-preload.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/build/workbox-navigation-preload.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/enable.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-navigation-preload/enable.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/PrecacheController.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/PrecacheController.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/_types.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/_types.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/build/workbox-precaching.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/build/workbox-precaching.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/build/workbox-precaching.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/build/workbox-precaching.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/precache.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/precache.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/addFetchListener.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/addFetchListener.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/getCacheKeyForURL.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/getCacheKeyForURL.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/printCleanupDetails.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-precaching/utils/printCleanupDetails.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-range-requests/Plugin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-range-requests/Plugin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-range-requests/build/workbox-range-requests.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-range-requests/build/workbox-range-requests.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-range-requests/build/workbox-range-requests.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-range-requests/build/workbox-range-requests.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-range-requests/createPartialResponse.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-range-requests/createPartialResponse.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/NavigationRoute.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/NavigationRoute.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/RegExpRoute.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/RegExpRoute.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/Route.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/Route.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/Router.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/Router.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/_types.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/_types.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/build/workbox-routing.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/build/workbox-routing.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/build/workbox-routing.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/build/workbox-routing.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/registerNavigationRoute.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/registerNavigationRoute.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/setCatchHandler.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/setCatchHandler.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-routing/setDefaultHandler.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-routing/setDefaultHandler.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/CacheFirst.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/CacheFirst.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/CacheOnly.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/CacheOnly.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/NetworkFirst.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/NetworkFirst.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/NetworkOnly.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/NetworkOnly.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/StaleWhileRevalidate.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/StaleWhileRevalidate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/build/workbox-strategies.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/build/workbox-strategies.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/build/workbox-strategies.prod.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/build/workbox-strategies.prod.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/workbox-strategies/utils/messages.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/workbox-strategies/utils/messages.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/worker-farm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-farm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yarn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yarn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/backend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +510,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,24 +524,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/backend" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\static" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\users\backend" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\backend" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_dir" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\QA_CommunityForum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates\fpw" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\static" />
+      <recent name="E:\Django\virtualdir\QA_CommunityForum\templates" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum\node_modules\@svgr" />
       <recent name="E:\Django\virtualdir\QA_CommunityForum" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_dir" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\users" />
-      <recent name="E:\Django\virtualdir\QA_CommunityForum\admins\frontend\admin_homepage\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +557,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RunManager" selected="Python.models">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="QA_CommunityForum" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +571,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="E:/Python 3.7.4/Lib/site-packages/django/apps/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QA_CommunityForum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,6 +623,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.settings" />
         <item itemvalue="Python.config" />
       </list>
