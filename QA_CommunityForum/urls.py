@@ -22,14 +22,18 @@ from QA_CommunityForum import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
-    # path('users/', include('django.contrib.auth.urls')),
-    path('', views.HomePageView.as_view(), name='home_index'),
+    path('users/', include('django.contrib.auth.urls')),
+    # path('', views.HomePageView.as_view(), name='home_index'),
+    # path('', views.TemplateView.as_view(template_name='login.html'), name='login'),
+
+    path('', views.login, name='login'),
     path('templates/', include('templates.urls')),
+    path('users/', include('users.urls')),
     path('accounts/', include('allauth.urls')),
 
     path('reset/password_reset', auth_views.PasswordResetView.as_view(),
          {'template_name': "templates/registration/password_reset_form.html"},
-         name='password_reset1'),
+         name='password_reset'),
     path('reset/password_reset/done', auth_views.PasswordResetDoneView.as_view(),
          {'template_name': "templates/registration/password_reset_done.html"},
          name='password_reset_done'),

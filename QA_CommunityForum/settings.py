@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.linkedin_oauth2',
 
-
     'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -52,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'users.apps.UsersConfig',
 
 ]
 
@@ -68,16 +68,16 @@ MIDDLEWARE = [
 
 ]
 
-#AUTH_USER_MODEL = 'admins.User',
-#AUTH_USER_MODEL = 'users.User'
+# AUTH_USER_MODEL = 'admins.User',
+#AUTH_USER_MODEL = 'users.users'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-#EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+# EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'username@gmail.com'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'sohoniaggarwal13@gmail.com'
+EMAIL_HOST_PASSWORD = 'sohoni605'
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'QA_CommunityForum Team <noreply@example.com>'
 
@@ -90,6 +90,7 @@ GRAPHENE = {
 SITE_ID = 1
 
 AUTHENTICATION_BACKENDS = (
+    'social.backends.linkedin.LinkedinOAuth2',
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 )
@@ -98,6 +99,35 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
+
+SOCIALACCOUNT_PROVIDERS = \
+    {
+        'linkedin_oauth2': {
+            'SCOPE': [
+                'r_liteprofile',
+                'r_emailaddress',
+                'w_member_social',
+            ],
+            'PROFILE_FIELDS': [
+                'id',
+                'firstName',
+                'lastName',
+                'emailAddress',
+                'email-address',
+                'profilePicture',
+                'public-profile-url',
+            ],
+            'LOCATION_FIELDS': [
+                'location',
+            ],
+            'POSITION_FIELDS': [
+                'company',
+            ]
+        }
+    }
+
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = 'secret'  # App ID
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'secret'  # app key
 
 django_heroku.settings(locals())
 
@@ -189,6 +219,6 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '/Django/virtualdir/QA_CommunityForum/static/images/')
 MEDIA_URL = '/images/'
 
-LOGIN_REDIRECT_URL = 'login'
+LOGIN_REDIRECT_URL = 'home'
 
-LOGOUT_REDIRECT_URL = 'login'
+LOGOUT_REDIRECT_URL = 'home'

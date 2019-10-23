@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-<!--{% load socialaccount %}-->
+{% load socialaccount %}
 {% block content %}
 <!-- main -->
 <div class="w3layouts-main">
@@ -27,10 +27,10 @@
 						 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i> Keep me logged in</label>
 					</div>
 					<div class="bottom">
-						<button class="btn">Log In</button>
+						<button class="btn" type="submit" value="login">Log In</button>
 					</div>
 					<div class="links">
-						<p><a href="{% url 'password_reset1' %}">Forgot Password?</a></p>
+						<p><a href="{% url 'password_reset' %}">Forgot Password?</a></p>
 						<p class="right"><a href="{% url 'register' %}">New User? Register</a></p>
 						<div class="clear"></div>
 					</div>
@@ -39,9 +39,9 @@
 			<div class="social">
 				<ul>
 					<li>or login using : </li>
-					<li><a  href="{% static '#' %}" class="facebook" ><span class="fa fa-facebook"></span></a></li>
-					<li><a href="{% static '#' %}" class="twitter" ><span class="fa fa-twitter"></span></a></li>
-					<li><a href="{% static '#' %}" class="google" ><span class="fa fa-google-plus"></span></a></li>
+					<li><a href="{% provider_login_url 'google' %}" class="google" ><span class="fa fa-google"></span></a></li>
+					<li><a  href="{% provider_login_url 'facebook' %}" class="facebook" ><span class="fa fa-facebook"></span></a></li>
+					<li><a href="{% provider_login_url 'linkedin_oauth2' %}" class="linkedin" ><span class="fa fa-linkedin"></span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -55,4 +55,6 @@
 </div>
 
 <!-- //main -->
+
+
 {% endblock %}

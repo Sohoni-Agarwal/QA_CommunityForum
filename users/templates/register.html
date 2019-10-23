@@ -1,0 +1,80 @@
+{% extends "templates\base.html" %}
+{% load static %}
+{% block content %}
+<!-- main -->
+<div class="w3layouts-main">
+	<div class="bg-layer">
+		<h1>QA_CommunityForum</h1>
+		<div class="header-main">
+            <div class="main-icon">
+				<span class="fa fa-eercast"></span>
+			</div>
+			<div class="header-left-bottom">
+				<form action="#" method="post">
+                      {% csrf_token %}
+    				<!--{{ form.as_p }}-->
+
+                        {% for field in form %}
+                          <p>
+                            {{ field.label_tag }}<br>
+                            {{ field }}
+                            {% if field.help_text %}
+                              <small style="display: none">{{ field.help_text }}</small>
+                            {% endif %}
+                            {% for error in field.errors %}
+                              <p style="color: red">{{ error }}</p>
+                        {% endfor %}
+                          </p>
+                        {% endfor %}
+
+                        <div class="icon1">
+                            <span class="fa fa-user"></span>
+                            <input class="text" type="text" name="Username" placeholder="Username" required="">
+					    </div>
+
+                        <div class="icon1">
+                            <span class="fa fa-user"></span>
+                            <input class="text email" type="email" name="email" placeholder="Email" required="">
+					    </div>
+
+                        <div class="icon1">
+                            <span class="fa fa-user"></span>
+                            <input class="text" type="password" name="password" placeholder="Password" required="">
+					    </div>
+
+                        <div class="icon1">
+                            <span class="fa fa-user"></span>
+                            <input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+					    </div>
+
+                        <div class="login-check">
+						    <label class="checkbox">
+                                <input type="checkbox" name="checkbox" checked="" required="">
+                                <i> </i> I Agree To The Terms & Conditions
+                            </label>
+					    </div>
+
+					    <div class="bottom">
+						    <button class="btn" value="REGISTER">Register</button>
+					    </div>
+
+                         <!--   <div class="wthree-text">
+                                <label class="anim">
+                                    <input type="checkbox" class="checkbox" required="">
+                                    <span>I Agree To The Terms & Conditions</span>
+                                </label>
+                                <div class="clear"> </div>
+                            </div>
+                            <input type="submit" value="REGISTER">
+                            -->
+
+
+                </form>
+        </div>
+    </div>
+</div>
+	<!-- //main -->
+	<!-- js -->
+
+<!-- //js -->
+{% endblock %}
