@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.urls import path, include
+from templates import views
 
 from QA_CommunityForum import views
 
@@ -23,11 +24,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
     path('users/', include('django.contrib.auth.urls')),
-    # path('', views.HomePageView.as_view(), name='home_index'),
+    path('', views.HomePageView.as_view(), name='home'),
     # path('', views.TemplateView.as_view(template_name='login.html'), name='login'),
 
-    path('', views.login, name='login'),
-    path('templates/', include('templates.urls')),
+    # path('templates/views.py', views.login, name='login'),
+    path('templates', include('templates.urls')),
     path('users/', include('users.urls')),
     path('accounts/', include('allauth.urls')),
 

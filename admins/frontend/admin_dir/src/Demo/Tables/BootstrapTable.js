@@ -3,6 +3,7 @@ import {Row, Col, Card, Table} from 'react-bootstrap';
 
 import Aux from "../../hoc/_Aux";
 
+
 class BootstrapTable extends React.Component {
     render() {
         return (
@@ -131,3 +132,4 @@ class BootstrapTable extends React.Component {
 }
 
 export default BootstrapTable;
+

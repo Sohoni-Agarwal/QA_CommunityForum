@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/bg100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_questions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/acc_active_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sohoni.xml" afterDir="false" />
+    <list default="true" id="ae5f6a2a-a9a8-49e5-860a-aac410b99b39" name="Default Changelist" comment="Added new files">
+      <change afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/Demo/Tables/ManageUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA_CommunityForum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA_CommunityForum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA_CommunityForum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_CommunityForum/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Breadcrumb/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Breadcrumb/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Navigation/NavLogo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/App/layout/AdminLayout/Navigation/NavLogo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/Demo/Authentication/SignUp/SignUp1.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/Demo/Authentication/SignUp/SignUp1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/asap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/coa/node_modules/q/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/coa/node_modules/q/CHANGES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dev-utils/node_modules/sockjs-client/dist/sockjs.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/answers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/Demo/Tables/BootstrapTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/Demo/Tables/BootstrapTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/frontend/admin_dir/src/menu-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/admins/frontend/admin_dir/src/menu-items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +42,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/templates" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -212,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571636915742</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added new files">
+      <created>1571793537015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571793537015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

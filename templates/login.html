@@ -27,7 +27,7 @@
 						 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i> Keep me logged in</label>
 					</div>
 					<div class="bottom">
-						<button class="btn" type="submit" value="login">Log In</button>
+						<button class="btn" type="submit" value="login" onclick="login">Log In</button>
 					</div>
 					<div class="links">
 						<p><a href="{% url 'password_reset' %}">Forgot Password?</a></p>
@@ -41,7 +41,8 @@
 					<li>or login using : </li>
 					<li><a href="{% provider_login_url 'google' %}" class="google" ><span class="fa fa-google"></span></a></li>
 					<li><a  href="{% provider_login_url 'facebook' %}" class="facebook" ><span class="fa fa-facebook"></span></a></li>
-					<li><a href="{% provider_login_url 'linkedin_oauth2' %}" class="linkedin" ><span class="fa fa-linkedin"></span></a></li>
+					<!--<li><a href="{% provider_login_url 'linkedin_oauth2' %}" class="linkedin" ><span class="fa fa-linkedin"></span></a></li>-->
+					<li><a href="{% url 'home' %}" class="linkedin" ><span class="fa fa-linkedin"></span></a></li>
 				</ul>
 			</div>
 		</div>
